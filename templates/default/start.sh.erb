@@ -1,0 +1,5 @@
+#!/bin/sh
+
+nohup java -Djava.awt.headless=true -Xmx<%= @memory %> -jar <%= @jar_file %> <%= @port %> > <%= @output_log_file %> 2> <%= @error_log_file %> &
+
+echo $! > <%= @pid_file %>
