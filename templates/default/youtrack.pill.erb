@@ -2,5 +2,7 @@ Bluepill.application("youtrack") do |app|
   app.process("youtrack") do |process|
     process.start_command = "<%= @script_file %>"
     process.pid_file = "<%= @pid_file %>"
+    process.uid = "youtrack"
+    process.gid = "users"
   end
 end

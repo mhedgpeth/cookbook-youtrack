@@ -3,7 +3,7 @@ maintainer       "Vyacheslav Slinko"
 maintainer_email "vyacheslav.slinko@gmail.com"
 license          "MIT"
 description      "Installs YouTrack Issue Tracker from JetBrains"
-version          "0.0.0"
+version          "0.0.1"
 
 recipe "youtrack", "Install and start YouTrack instance"
 
